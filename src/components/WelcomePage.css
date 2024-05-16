@@ -1,0 +1,42 @@
+/* WelcomePage.css */
+.welcome-container {
+    position: relative;
+  }
+  
+  .welcome-image {
+    width: 100%;
+  }
+  
+  .welcome-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .welcome-overlay h1 {
+    font-size: 2.8rem; /* Increase font size as desired */
+  }
+  
+  .continue-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: ivory;
+    margin-top: 20px;
+  }
+  
+  .continue-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,68 @@
+/* Background image styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("test.jpeg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+/* Login container styles */
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1000px;
+  padding: 25px;
+  background-color: rgba(5, 2, 23, 0.7); /* Semi-transparent background */
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+/* Login form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4; /* Light background for inputs */
+  color: #333; /* Dark text */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.create-account-link {
+  color: #fff; /* White text */
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.admin-button {
+  display: none; /* Hide this button for now */
+}

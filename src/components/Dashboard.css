@@ -1,0 +1,61 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/background.jpg'); /* Replace 'background.jpg' with your image path */
+  background-size: cover;
+  background-attachment: fixed; /* Keep background image fixed on scroll */
+  position: relative; /* Needed for absolute positioning of the button */
+}
+
+.dashboard-frame {
+  width: 350px; /* Adjust width as needed */
+  height: 350px; /* Adjust height as needed */
+  border: 2px solid #080b40; /* Remove solid border */
+  border-radius: 15px; /* Maintain rounded corners */
+  margin: 20px;
+  padding: 2rem; /* Add padding for content */
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+}
+
+.dashboard-frame h2 {
+  margin-top: 0; /* Remove top margin */
+  font-size: 1.5rem; /* Adjust font size */
+  color: #1a0437; /* Text color */
+}
+
+.dashboard-frame p {
+  margin: 10px 0;
+  color: #bc2929; /* Subdued text color */
+}
+
+.dashboard-frame img {
+  width: 100%; /* Display image full width within frame */
+  height: auto;
+}
+
+.find-match-container {
+  position: absolute; /* Position the container absolutely */
+  bottom: 20px; /* Adjust button position from the bottom */
+  width: 100%; /* Span the entire width */
+  display: flex;
+  justify-content: center; /* Center the button horizontally within the container */
+}
+
+.find-match-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button color */
+  color: #fff; /* White button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.find-match-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
